@@ -6,3 +6,7 @@ oc apply -f .\k8s\api-service.yaml
 oc apply -f .\k8s\mysql-service.yaml
 oc apply -f .\k8s\mysql-statefulset.yaml
 oc get pods
+oc describe pod app-db-0
+oc get deployment
+oc logs app-db-0
+oc new-app https://github.com/ShalomBerman7/test_week_14.git

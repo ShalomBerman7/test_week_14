@@ -1,0 +1,4 @@
+../.venv
+.idea
+weapon-warehouse-system/app/__pycache__/
+.gitignore
